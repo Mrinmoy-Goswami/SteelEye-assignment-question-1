@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  padding: 0 1em;
+  background-color: #142033;
+  color: white;
+  justify-content: space-between;
+}
+
+.actionBox {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(184, 199, 214);
+  gap: 1em;
+  margin: 1em;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  /* gap: 1em; */
+  width: 100%;
+}
+.search{
+  position: absolute;
+  
+ top:32px;
+ right: 132px;
+  z-index: 10;
+}
+.searchOptions{
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 5px;
+ 
+  
+}
+
+.listItem:hover {
+border: solid 1px gray;
+cursor: pointer;
+background-color: gray;
+color: white;
+
+}  
+.listUL{
+  width: 100%;
+  padding: 0px;
+}
